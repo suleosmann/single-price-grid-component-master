@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%) ;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+.container{
+    position: absolute;
+    transform: translateY(-30%);
+}
+/*Top side style*/
+.top{
+    background-color: #fff;
+    padding: 1.9rem;
+}
+.top h2{
+    font-weight: 700;
+    color:hsl(179, 62%, 43%);
+    padding-bottom: 1.2rem;
+}
+.top h4{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 0.7rem;
+}
+.top p{
+    color: hsl(218, 22%, 67%);
+}
+/*End of Top side style*/
+
+
+/*bottom side style*/   
+
+.bottom{
+    display: flex;
+    width: 100%;
+    color: #fff;
+}
+.bottom-left{
+    background-color: hsl(179, 62%, 43%);
+    padding: 1.5rem;
+    padding-right: 2.2rem;
+}
+
+.bottom-left h3{
+    padding-bottom: 0.5rem;
+}
+.price{
+    display: flex;
+}
+.price p{
+    padding-left: .7rem;
+    transform: translateY(25%);
+}
+.bottom-left .full-access{
+    padding-top: .3rem;
+}
+
+button{
+    border:0;
+    margin-top: 2.8rem;
+    color: #fff;
+    width: 15rem;
+    height: 2.7rem;
+    border-radius: .3rem;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.bottom-right{
+    background-color:hsl(179, 62%, 59%);
+    padding: 1.5rem;
+    padding-right: 49px;
+    
+}
+.bottom-right ul{
+    list-style: none;
+}
+/*End of bottom side style*/
